@@ -7,7 +7,7 @@
     "make",
     "rake"
   ],
-  "version": "0.6.7",
+  "version": "0.6.10",
   "author": "Matthew Eernisse <mde@fleegix.org> (http://fleegix.org)",
   "bin": {
     "jake": "./bin/cli.js"
@@ -23,7 +23,9 @@
     "utilities": "0.0.x",
     "q": "0.9.x"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "q": "0.9.x"
+  },
   "engines": {
     "node": "*"
   }
